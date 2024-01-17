@@ -5,6 +5,11 @@
 #include <ESP8266WebServer.h>
 #include <WiFiManager.h>
 
+#define FIREBASE_HOST
+#define FIREBASE_AUTH
+#define WIFI_SSID
+#define WIFI_PASSWORD
+
 byte lampu = D5;
 int status;
 
